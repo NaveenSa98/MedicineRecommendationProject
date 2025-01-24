@@ -6,12 +6,12 @@
 ---
 
 ## **🚀 Features**
-**✅ Predicts diseases based on user-entered symptoms**
-**✅ Recommends the right medicines for the diagnosed disease**
-**✅ Provides a detailed description of the disease**
-**✅ Suggests precautions to take during illness**
-**✅ Offers workout tips and guidelines for recovery**
-**✅ Recommends a healthy diet plan for better healing**
+- ✅ **Predicts diseases based on user-entered symptoms**
+- ✅ **Recommends the right medicines for the diagnosed disease**
+- ✅ **Provides a detailed description of the disease**
+- ✅ **Suggests precautions to take during illness**
+- ✅ **Offers workout tips and guidelines for recovery**
+- ✅ **Recommends a healthy diet plan for better healing**
 
 ---
 
