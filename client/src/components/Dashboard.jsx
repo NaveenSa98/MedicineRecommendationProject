@@ -21,38 +21,27 @@ const Header = () => (
   </header>
 );
 
-const ResultCard = ({ title, content }) => {
-  const renderContent = () => {
-    if (content === undefined || content === null) {
-      return <p>No information available</p>;
-    }
-
-    if (Array.isArray(content)) {
-      if (content.length === 0) {
-        return <p>No information available</p>;
-      }
-      
-      return (
+const ResultCard = ({ title, content }) => (
+  <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 transition-all duration-300 hover:shadow-lg">
+    <h3 className="text-xl font-semibold text-blue-300 mb-4">{title}</h3>
+    <div className="text-gray-300 leading-relaxed">
+      {Array.isArray(content) ? (
         <ul className="list-disc list-inside space-y-2">
           {content.map((item, index) => (
-            <li key={index}>{item}</li>
+            <li key={index}>{
+              // Remove any square brackets if present
+              typeof item === 'string' 
+                ? item.replace(/^\[|\]$/g, '').replace(/'/g, '')
+                : item
+            }</li>
           ))}
         </ul>
-      );
-    }
-
-    return <p>{content}</p>;
-  };
-
-  return (
-    <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 transition-all duration-300 hover:shadow-lg">
-      <h3 className="text-xl font-semibold text-blue-300 mb-4">{title}</h3>
-      <div className="text-gray-300 leading-relaxed">
-        {renderContent()}
-      </div>
+      ) : (
+        <p>{content}</p>
+      )}
     </div>
-  );
-};
+  </div>
+);
 
 
 const Dashboard = () => {
@@ -99,6 +88,7 @@ const Dashboard = () => {
 
     setIsLoading(true);
     setError(null);
+    setShowResults(false); 
 
     try {
       const response = await axios.post('http://127.0.0.1:5000/predict', {
