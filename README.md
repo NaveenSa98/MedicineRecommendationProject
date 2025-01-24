@@ -23,16 +23,21 @@
 
 ---
 
+
 ## **🎯 How It Works?**
-- 1️⃣ **The user enters their symptoms on the website.**
-- 2️⃣ **The system processes the input and predicts the disease using the trained ML model.**
-- 3️⃣ **Based on the predicted disease, the system provides:**
-      -- **Recommended medicines**
-      -- **Description of the disease**
-      -- **Suggested precautions**
-      -- **Recommended workouts for better recovery**
-      -- **Diet plan for a healthier lifestyle**
-- 4️⃣ **The user receives all the essential details to manage their condition effectively!**
+
+1️⃣ **The user enters their symptoms on the website.**
+
+2️⃣ **The system processes the input and predicts the disease using the trained ML model.**
+
+3️⃣ **Based on the predicted disease, the system provides:**
+   - **Recommended medicines**
+   - **Description of the disease**
+   - **Suggested precautions**
+   - **Recommended workouts for better recovery**
+   - **Diet plan for a healthier lifestyle**
+
+4️⃣ **The user receives all the essential details to manage their condition effectively!**
 
 ---
 
