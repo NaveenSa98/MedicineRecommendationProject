@@ -24,9 +24,9 @@
 ---
 
 ## **🎯 How It Works?**
-1️⃣ The user enters their symptoms on the website.
-2️⃣ The system processes the input and predicts the disease using the trained ML model.
-3️⃣ Based on the predicted disease, the system provides:
+1️⃣ **The user enters their symptoms on the website.**
+2️⃣ **The system processes the input and predicts the disease using the trained ML model.**
+3️⃣ **Based on the predicted disease, the system provides:**
 
 Recommended medicines
 Description of the disease
