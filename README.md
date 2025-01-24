@@ -39,17 +39,17 @@
 ## **🛠️ Installation & Setup**
 
 - 📌 **Prerequisites**
-      - Make sure you have the following installed:
-        - Python (>= 3.8)
-        - Node.js & npm
-        - Virtual Environment (venv or conda)
+      - **Make sure you have the following installed:**
+        - **Python (>= 3.8)**
+        - **Node.js & npm**
+        - **Virtual Environment (venv or conda)**
 
       
 
 ## **📷 Screenshot**
-![Home UI](Screenshot/Home.png)
-![Features UI](Screenshot/Features.png)
-![Result Dashboard UI](Screenshot/Result_Dashboard.png)
+- ![Home UI](Screenshot/Home.png)
+- ![Features UI](Screenshot/Features.png)
+- ![Result Dashboard UI](Screenshot/Result_Dashboard.png)
 
 
 
