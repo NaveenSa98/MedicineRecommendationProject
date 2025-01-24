@@ -47,9 +47,9 @@
       
 
 ## **📷 Screenshot**
-![Home UI](Home.png)
-![Features UI](Features.png)
-![Result Dashboard UI](Result_Dashboard.png)
+![Home UI](Screenshot/Home.png)
+![Features UI](Screenshot/Features.png)
+![Result Dashboard UI](Screenshot/Result_Dashboard.png)
 
 
 
