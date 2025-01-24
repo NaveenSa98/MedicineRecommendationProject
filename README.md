@@ -47,9 +47,9 @@
       
 
 ## **📷 Screenshot**
-![House Price UI](Housing_Price_UI.png)
-![House Price UI](Housing_Price_UI.png)
-![House Price UI](Housing_Price_UI.png)
+![Home UI](Home.png)
+![Features UI](Features.png)
+![Result Dashboard UI](Result_Dashboard.png)
 
 
 
