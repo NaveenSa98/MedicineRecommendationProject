@@ -44,12 +44,13 @@
 ## **🛠️ Installation & Setup**
 
 - 📌 **Prerequisites**
-      - **Make sure you have the following installed:**
-        - **Python (>= 3.8)**
-        - **Node.js & npm**
-        - **Virtual Environment (venv or conda)**
+   - **Make sure you have the following installed:**
+     - **Python (>= 3.8)**
+     - **Node.js & npm**
+     - **Virtual Environment (venv or conda)**
 
-  ---
+---
+
 
       
 
