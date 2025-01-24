@@ -44,6 +44,8 @@
         - **Node.js & npm**
         - **Virtual Environment (venv or conda)**
 
+  ---
+
       
 
 ## **📷 Screenshot**
